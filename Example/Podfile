@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YSHNetWorkTool_Example' do
+  pod 'YSHNetWorkTool', :path => '../'
+
+  target 'YSHNetWorkTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
