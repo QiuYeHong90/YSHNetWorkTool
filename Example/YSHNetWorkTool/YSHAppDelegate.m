@@ -6,6 +6,8 @@
 //  Copyright (c) 2018 793983383@qq.com. All rights reserved.
 //
 
+
+
 #import "YSHAppDelegate.h"
 
 @implementation YSHAppDelegate
@@ -13,6 +15,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   
+    {
+        [YSHNetWorkTool openLog];
+        [YSHNetWorkTool setRequestTimeoutInterval:12.f];
+    }
+ 
     return YES;
 }
 

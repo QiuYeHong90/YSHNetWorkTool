@@ -1,0 +1,6 @@
+framework module YSHNetWorkTool {
+  umbrella header "YSHNetWorkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
