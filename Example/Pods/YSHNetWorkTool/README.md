@@ -17,12 +17,12 @@ YSHNetWorkTool is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YSHNetWorkTool' 
+pod 'YSHNetWorkTool'
 ```
 
 ## Author
 
-[叶秋](793983383@qq.com)
+793983383@qq.com, 793983383@qq.com
 
 ## License
 

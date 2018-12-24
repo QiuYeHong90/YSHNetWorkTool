@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/QiuYeHong90/YSHNetWorkTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '793983383@qq.com' => '793983383@qq.com' }
+  s.author           = { '秋叶红' => '793983383@qq.com' }
   s.source           = { :git => 'https://github.com/QiuYeHong90/YSHNetWorkTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
