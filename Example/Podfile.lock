@@ -14,12 +14,12 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - PPNetworkHelper (0.8.1):
-    - AFNetworking (~> 3.2.0)
-    - YYCache (~> 1.0.4)
   - YSHNetWorkTool (0.0.1):
-    - PPNetworkHelper (~> 0.8.1)
-  - YYCache (1.0.4)
+    - AFNetworking
+    - YYKit
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - YSHNetWorkTool (from `../`)
@@ -27,8 +27,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - PPNetworkHelper
-    - YYCache
+    - YYKit
 
 EXTERNAL SOURCES:
   YSHNetWorkTool:
@@ -36,9 +35,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
-  YSHNetWorkTool: 207fbc51eb4eefc186bd0bd01c9f344c864665ba
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YSHNetWorkTool: f33953a2236d71956701b639f0a1990b90cdbc49
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: 97ca4f55983d1168ad7c358cfc80091f2fb41c4b
 

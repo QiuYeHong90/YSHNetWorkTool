@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "PPNetworkCache.h"
+#import "PPNetworkHelper.h"
 #import "YSHNetWorkTool.h"
 
 FOUNDATION_EXPORT double YSHNetWorkToolVersionNumber;

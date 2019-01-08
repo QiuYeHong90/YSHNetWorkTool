@@ -27,9 +27,6 @@
         
     }];
     
-    
-    
-    
     [YSHNetWorkTool PUT:@"http://hibabytest.vinacss.com:8081/v1/test/test" parameters:@{} success:^(id responseObject) {
 
     } failure:^(NSError *error) {

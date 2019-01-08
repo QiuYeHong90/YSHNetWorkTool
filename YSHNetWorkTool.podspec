@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-
-   s.dependency 'PPNetworkHelper', '~> 0.8.1'
+   s.dependency 'YYKit'
+   s.dependency 'AFNetworking'
    
 end
