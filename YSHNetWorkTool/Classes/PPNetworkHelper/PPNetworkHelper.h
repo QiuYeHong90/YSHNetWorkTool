@@ -141,7 +141,10 @@ typedef void(^PPNetworkStatus)(PPNetworkStatusType status);
                      responseCache:(PPHttpRequestCache)responseCache
                            success:(PPHttpRequestSuccess)success
                            failure:(PPHttpRequestFailed)failure;
-
++ (__kindof NSURLSessionTask *)GETSynchron:(NSString *)url
+                                parameters:(id)parameters
+                                   success:(PPHttpRequestSuccess)success
+                                   failure:(PPHttpRequestFailed)failure;
 /**
  *  POST请求,无缓存
  *
