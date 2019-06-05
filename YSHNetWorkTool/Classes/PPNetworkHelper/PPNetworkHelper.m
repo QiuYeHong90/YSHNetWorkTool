@@ -158,7 +158,7 @@ static AFHTTPSessionManager *_sessionManager;
 {
     //读取缓存
     responseCache!=nil ? responseCache([PPNetworkCache httpCacheForURL:URL parameters:parameters]) : nil;
-    NSURLSessionTask *sessionTask =  [_sessionManager PUT:URL parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    NSURLSessionTask *sessionTask =  [_sessionManager DELETE:URL parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (_isOpenLog) {PPLog(@"URL = %@ \n  parameters = %@ \n responseObject = %@",URL,parameters,responseObject);}
         [[self allSessionTask] removeObject:task];
         success ? success(responseObject) : nil;
